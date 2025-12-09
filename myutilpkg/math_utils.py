@@ -3,7 +3,7 @@ import math
 def factorial(n):
     if n < 0:
         raise ValueError("Negative numbers not allowed")
-    return math.factorial(n)
+    return n * (n - 1)
 
 def is_prime(n):
     if n <= 1:
